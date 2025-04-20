@@ -21,7 +21,7 @@ const SearchBar = ({ onSearch }) => {
         placeholder="Search..."
         style={styles.input}
       />
-      <button type="submit" style={styles.button}></button>
+      <button type="submit" style={styles.button}>Submit</button>
     </form>
   );
 };
