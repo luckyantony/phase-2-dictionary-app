@@ -1,23 +1,35 @@
-import React, { useState } from 'react';
-import SearchBar from './components/SearchBar';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-const App = () => {
-  const [searchResult, setSearchResult] = useState('');
-
-  const handleSearch = (searchTerm) => {
-    setSearchResult(searchTerm);
-    console.log('Search Term:', searchTerm); // For now, log it to the console
-  };
+function App() {
+  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <h1>Search App</h1>
-      <SearchBar onSearch={handleSearch} />
+    <>
       <div>
-        {searchResult && <p>Searching for: {searchResult}</p>}
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
       </div>
-    </div>
-  );
-};
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
+}
 
-export default App;
+export default App
