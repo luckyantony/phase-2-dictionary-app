@@ -7,3 +7,16 @@ A responsive and modern dictionary web application built with React. This app al
 - HTTP Requests: Fetch API 
 - Styling: CSS 
 - API: [Free Dictionary API](https://dictionaryapi.dev/)
+
+# API Information
+This app uses the Free Dictionary API, which provides:
+
+ .Definitions
+
+ .Phonetics
+
+ .Part of speech
+
+ .Audio pronunciation
+
+ .Example usage
