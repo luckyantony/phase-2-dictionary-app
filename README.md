@@ -20,3 +20,15 @@ This app uses the Free Dictionary API, which provides:
  .Audio pronunciation
 
  .Example usage
+
+ # Features
+ - Accepts any English word as input
+- Uses `useEffect` for automatic data fetching on input change
+- Returns structured data:
+  - `data` (API response)
+  - `loading` (boolean)
+  - `error` (string message, if any)
+- Error handling for:- 
+   - Empty input
+  - Word not found
+  - Network errors
