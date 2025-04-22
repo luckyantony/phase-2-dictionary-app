@@ -1,5 +1,5 @@
 import React from 'react';
-import './ResultDisplay.css'; // Optional: for styling
+// import './ResultDisplay.css'; // Optional: for styling
 
 const ResultDisplay = ({ data, loading, error }) => {
   if (loading) return <p className="loading">Loading...</p>;
