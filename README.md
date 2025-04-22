@@ -1,3 +1,0 @@
-- The `SearchBar` component contains an input field and a submit button.
-- On form submission, the search term is passed to the parent component via a callback function.
-- The `App.jsx` file logs and displays the search term.
