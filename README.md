@@ -1,3 +1,8 @@
+
+- The `SearchBar` component contains an input field and a submit button.
+- On form submission, the search term is passed to the parent component via a callback function.
+- The `App.jsx` file logs and displays the search term.
+=======
 # React Dictionary App
 A responsive and modern dictionary web application built with React. This app allows users to look up definitions, pronunciations, and usage examples of English words using the free and open [Dictionary API](https://dictionaryapi.dev/). 
 
