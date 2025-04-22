@@ -16,7 +16,7 @@ const App = () => {
       <div>
         {searchResult && <p>Searching for: {searchResult}</p>}
       </div>
-      </div>
+    </div>
   );
 };
 
