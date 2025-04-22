@@ -46,4 +46,4 @@ const ResultDisplay = ({ data, loading, error }) => {
   );
 };
 
-export default ResultDisplay;npm
+export default ResultDisplay;
