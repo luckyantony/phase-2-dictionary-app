@@ -42,4 +42,4 @@ This app uses the Free Dictionary API, which provides:
 - The useDictionary custom hook fetches data from a dictionary API based on searchResult.
 
 - ResultDisplay component shows the word definition or relevant loading/error messages..
->>>>>>> main
+
