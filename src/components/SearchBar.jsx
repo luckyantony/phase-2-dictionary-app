@@ -19,7 +19,7 @@ const SearchBar = ({ onSearch }) => {
         value={searchTerm}
         onChange={handleChange}
         placeholder="Search..."
-        // style={styles.input}
+        
       />
       <button type="submit" >Submit</button>
     </form>

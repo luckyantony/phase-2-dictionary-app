@@ -22,6 +22,7 @@ This app uses the Free Dictionary API, which provides:
  .Example usage
 
  # Features
+ - Search for word definitions
  - Accepts any English word as input
 - Uses `useEffect` for automatic data fetching on input change
 - Returns structured data:
@@ -32,4 +33,13 @@ This app uses the Free Dictionary API, which provides:
    - Empty input
   - Word not found
   - Network errors
->>>>>>> main
+
+  # How It Works
+- The user types a word into the search bar.
+
+- handleSearch updates the searchResult state.
+
+- The useDictionary custom hook fetches data from a dictionary API based on searchResult.
+
+- ResultDisplay component shows the word definition or relevant loading/error messages.
+
