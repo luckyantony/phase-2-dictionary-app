@@ -4,53 +4,53 @@
     border: 8px solid #0a0a0a;
     border-radius: 10px;
     background: #04cab0;
-  }
+}
   
-  .word {
+.word {
     font-size: 60px;
     color: #0c0c0c;
     margin-bottom: 10px;
     text-align: center;
-  }
+}
   
-  .phonetics ul,
-  .meanings ul {
+.phonetics ul,
+.meanings ul {
     list-style-type: none;
     padding-left: 10 px;
-  }
+}
   
-  .card {
+.card {
     margin-top: 10px;
     padding: 10px;
     border: 5px solid #020202;
     border-radius: 8px;
     background: #d5e7c4;
-  }
+}
   
-  .example {
+.example {
     font-style: italic;
     color: #b9180d;
-  }
+}
   
-  .loading,
-  .error,
-  .empty {
+.loading,
+.error,
+.empty {
     margin-top: 20px;
     font-size: 1.1rem;
     color: #312828;
     text-align: center;
-  }
+}
   
-  .app-container {
+.app-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
     font-family: Arial, sans-serif;
-  }
+}
   
-  .title {
+.title {
     text-align: center;
     color: #1e1e1e;
     margin-bottom: 20px;
-  }
+}
   
