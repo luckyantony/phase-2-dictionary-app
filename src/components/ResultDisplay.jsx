@@ -1,10 +1,10 @@
 import React from 'react';
-// import './ResultDisplay.css'; // Optional: for styling
+import './ResultDisplay.css';
 
 const ResultDisplay = ({ data, loading, error }) => {
   if (loading) return <p className="loading">Loading...</p>;
   if (error) return <p className="error">{error}</p>;
-  if (!data) return null;
+  if (!data) return <p className="empty">Search for a word to see its definition.</p>;
 
   return (
     <div className="result-container">
@@ -28,7 +28,7 @@ const ResultDisplay = ({ data, loading, error }) => {
       )}
 
       <div className="meanings">
-        {data.meanings.map((meaning, idx) => (
+        {data.meanings?.map((meaning, idx) => (
           <div className="card" key={idx}>
             <h3>{meaning.partOfSpeech}</h3>
             <ul>
@@ -40,7 +40,7 @@ const ResultDisplay = ({ data, loading, error }) => {
               ))}
             </ul>
           </div>
-        ))}
+        )) || <p>No meanings found.</p>}
       </div>
     </div>
   );
