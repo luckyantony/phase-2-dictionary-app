@@ -3,12 +3,12 @@
     padding: 20px;
     border: 8px solid #0a0a0a;
     border-radius: 10px;
-    background: #04cab0;
+    background: #058c9e;
 }
   
 .word {
     font-size: 60px;
-    color: #0c0c0c;
+    color: #0a0a0a;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -17,6 +17,7 @@
 .meanings ul {
     list-style-type: none;
     padding-left: 10 px;
+    /* color: #020202; */
 }
   
 .card {
@@ -24,12 +25,12 @@
     padding: 10px;
     border: 5px solid #020202;
     border-radius: 8px;
-    background: #d5e7c4;
+    background: #653e97ee;
 }
   
 .example {
     font-style: italic;
-    color: #b9180d;
+    color: #99aaf5;
 }
   
 .loading,
@@ -46,6 +47,7 @@
     margin: 0 auto;
     padding: 30px;
     font-family: Arial, sans-serif;
+    background-color: bisque;
 }
   
 .title {
